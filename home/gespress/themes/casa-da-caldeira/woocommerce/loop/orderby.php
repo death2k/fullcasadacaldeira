@@ -1,0 +1,32 @@
+<?php
+/**
+ * Show options for ordering
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.2.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
+
+?>
+<form class="woocommerce-ordering" method="get">
+    <label><?php echo __('', 'porto') ?>: </label>
+    <?php
+		// Keep query string vars intact
+		foreach ( $_GET as $key => $val ) {
+			if ( 'orderby' === $key || 'submit' === $key ) {
+				continue;
+			}
+			if ( is_array( $val ) ) {
+				foreach( $val as $innerVal ) {
+					echo '<input type="hidden" name="' . esc_attr( $key ) . '[]" value="' . esc_attr( $innerVal ) . '" />';
+				}
+			} else {
+				echo '<input type="hidden" name="' . esc_attr( $key ) . '" value="' . esc_attr( $val ) . '" />';
+			}
+		}
+	?>
+</form>

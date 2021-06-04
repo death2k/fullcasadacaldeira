@@ -1,0 +1,52 @@
+/*
+Theme Name: gespress.com.br
+Theme URI: http://gespress.com.br
+Author: gespress.com.br
+Author URI: http://gespress.com.br
+Description: gespress.com.br
+Version: 2.2.5
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: porto
+
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+.bypostauthor {}
+
+  .menu-footer-mobile{display: none;}
+
+  @media(max-width: 640px){
+    .menu-footer-mobile{
+      z-index: 9999;
+      display: inline-block;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      white-space: nowrap;
+      background: #d8d8d8;
+      padding: 0 80px;
+      margin: 0;
+    }
+    .menu-footer-mobile li{
+      float: left;
+      width: 25%;
+      display: block;
+    }
+    .menu-footer-mobile li a, .menu-footer-mobile li button{
+      display: block;
+      height: 49px;
+    }
+    .mm-call{height: 42px; width: 42px; background: url(http://www.casadacaldeira.com.br/home/gespress/uploads/2019/04/mm-phone-icon.png) no-repeat center center;}
+    .mm-whatsapp{height: 42px; width: 42px; background: url(http://www.casadacaldeira.com.br/home/gespress/uploads/2019/04/mm-whatsapp-icon.png) no-repeat center center;}
+    .mm-email{height: 42px; width: 42px; background: url(http://www.casadacaldeira.com.br/home/gespress/uploads/2019/04/mm-email-icon.png) no-repeat center center;}
+    .mm-up-to-top{height: 42px; width: 42px; background: url(http://www.casadacaldeira.com.br/home/gespress/uploads/2019/04/mm-up-icon.png) no-repeat center center;}
+}
+
+@media(max-width: 380px){
+  .menu-footer-mobile{padding: 0 20px}
+}

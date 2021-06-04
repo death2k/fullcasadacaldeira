@@ -1,0 +1,56 @@
+html, body { background:#ffffff; }
+body { padding:0 10px 0 0; }
+
+#imagens > div.imagem {
+  width:50px; height:70px;
+  margin:0 20px 20px 0; padding:10px;
+  border:1px solid #f5f5f5;
+  float:left;
+  position:relative;
+}
+  #imagens > div.imagem .excluirImagem {
+    margin:0 0 0 -25px;
+    line-height:11px;
+    float:right;
+    position:absolute;
+    bottom:8px; left:50%;
+  }
+  #imagens > div.imagem .imagemLink {
+    width:100%;
+    text-align:center;
+    display:block;
+  }
+
+
+#ImagemIndexForm {
+  margin:0 0 15px 0; padding:10px 10px 10px 15px;
+  background:#fff8e5;
+  overflow:hidden;
+}
+  #ImagemIndexForm .clearfix {
+    width:auto;
+    margin:0 10px 0 0; padding:1px 0 0 0;
+    float:left;
+  }
+    #ImagemIndexForm .clearfix label {
+      width:auto;
+      margin:0 10px 5px 0; padding:2px 0 0 0;
+      font-weight:bold; font-size:18px;
+      text-align:left;
+      display:block; float:none;
+    }
+    #ImagemIndexForm .clearfix .input {
+      margin:0;
+    }
+      #ImagemIndexForm .clearfix .input input {
+        width:auto;
+      }
+  #ImagemIndexForm .addBtn {
+    margin:24px 0 0 0;
+    float:left;
+  }
+  #ImagemIndexForm .loader-spinner {
+    margin:31px 0 0 0;
+    float:left;
+    display:none;
+  }

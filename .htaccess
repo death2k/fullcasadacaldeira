@@ -1,0 +1,14 @@
+#ErrorDocument 404 http://www.casadacaldeira.com.br/home
+#ErrorDocument 500 http://www.casadacaldeira.com.br/home
+# or map them to one error document:
+# ErrorDocument 404 /pages/errors/error_redirect.php
+# ErrorDocument 500 /pages/errors/error_redirect.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /pages/errors/404.php [L]
+
+RewriteCond %{REQUEST_URI} ^/500/$
+RewriteRule ^(.*)$ /pages/errors/500.php [L]

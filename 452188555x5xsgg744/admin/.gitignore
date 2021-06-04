@@ -1,0 +1,4 @@
+config/environment.php
+tmp/**
+core/**
+core

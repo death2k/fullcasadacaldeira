@@ -1,0 +1,104 @@
+
+	* html #cont{
+		height:100%;
+ 	}	
+	html,body{
+		height:100%;
+	}
+	body { 
+		background-color: #dddddd;
+		margin: 0px;
+	}
+	#conteudo {
+		width: 715px;
+		height: 425px;
+		margin:0 auto;
+		margin-top:20px;
+	}
+
+
+#flashAbertura{
+
+	position:absolute;
+	width:780px;
+	height:425px;
+	top:50%;
+	margin-top: -230px;
+	left:50%;
+	margin-left: -390px;
+	text-align: center;
+
+	}
+	
+		
+		
+		/* Formulario */
+		
+
+<!--
+.style5 {color: #666666}
+.forms {	font: 13px "trebuchet ms";
+	color: #006600;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.style29 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px; }
+.style30 {font-size: 10px}
+-->
+
+#listagem li {
+	list-style-type: none;
+	width: 175px;
+	float: left;
+	text-align: center;
+	font-family:Verdana, Arial;
+	font-size:12px;
+	height: 140px; 
+	
+}
+#listagem li a, #listagem li a:link, #listagem li a:visited {
+	color: black;
+	text-decoration: none;
+}
+#listagem li a:hover {
+	text-decoration: underline;
+}
+#marcas tr td { background-color:#F8F8F8; font-family:Comic Sans MS, Arial Rounded MT Bold, Verdana; color:#033364; line-height:30px;}
+
+#marcas tr td a, #marcas tr td a:link, #marcas tr td a:visited {color:#033364; text-decoration:none;}
+
+#marcas tr td a:hover { color:#81A8CF; }
+
+#marcas tr td a img { border:0;}
+
+.image { 
+	height:75px; 
+	margin-top:0;
+}
+.image img {
+	border:2px solid #C0C0C0;
+}
+.title {
+	height: 40px;
+	
+}
+.tituloProd { font-family:Verdana, Arial; font-size:13px; clear:both; }
+
+.tituloProd a, .tituloProd a:link, .tituloProd a:visited { color:#033364; text-decoration:none; }
+.tituloProd a:hover { text-decoration:underline; }
+
+#descricaoProd { font-family:Verdana, Arial; font-size:12px; }
+
+/*******   paginacao ********/
+
+#paginacao{	width:100%;	height:25px; text-align:center; padding-top:10px; clear:both;}
+
+.inativo a:link, .inativo a:visited{ border: 1px solid #000; font-family: Trebuchet MS,Verdana,Arial,Sans-serif; font-size: 11px; color: #000; background-color: #FFF; text-decoration: none;	padding:2px 8px; margin:1px; }
+
+.inativo a:hover{ background-color: #fde28c; text-decoration: none;	}
+
+.atual a:link, .atual a:visited{ border:1px solid #000;	background-color: #efb600; }
+
+.btnFirstLast a:link, .btnFirstLast a:visited{ font-family:arial; border:1px solid #000; background-color: #e0e0e; color:#000; padding-bottom:3px; padding-top:3px}
+
+.btnPrevNext a:link, .btnPrevNext a:visited{ font-family: arial; border:1px solid #000;	background-color: #ebebeb; color:#000; padding-top:3px;	padding-bottom:3px;}

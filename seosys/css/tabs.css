@@ -1,0 +1,49 @@
+.example {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #fff;
+  }
+  .tab-content {
+    padding: 15px 0;
+  }
+  .rubber-list {
+      column-count: 1;
+      column-gap: 1em;
+  }
+  @media only screen and (min-width: 320px) {
+      .rubber-list {
+          column-count: 2;
+      }
+  }
+  @media only screen and (min-width: 480px) {
+      .rubber-list {
+          column-count: 3;
+      }
+  }
+  @media only screen and (min-width: 568px) {
+      .rubber-list {
+          column-count: 4;
+      }
+  }
+  @media only screen and (min-width: 600px) {
+      .rubber-list {
+          column-count: 5;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+      .rubber-list {
+          column-count: 6;
+      }
+  }
+  @media only screen and (min-width: 1024px) {
+      .rubber-list {
+          column-count: 7;
+      }
+  }
+  div.ex1 {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+  }

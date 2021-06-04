@@ -1,0 +1,41 @@
+body {background-color:#EBEBEB;}
+
+#tudo {border:3px solid white; width:765px; margin:0 auto; background-color:#FFF;}
+
+#topo {background: url("../imagens/topo.jpg"); height:100px;}
+
+#menu {width:150px; float:left; background-color:#FFF7D8;}
+
+#menu ul li {list-style-type:none; margin-left:-30px; font-family:Verdana,Arial; font-size:13px; height:20px;}
+
+#menu a, #menu a:link, #menu a:visited {text-decoration:none; color:black;}
+
+#menu a:hover {font-weight:bold;}
+
+#meio {width:612px; margin-left:150px;}
+
+#rodape {background-color:#0670C6; clear:both; font-family:Tahoma; font-size:11px; padding:5px; font-weight:bold; color:#FFF;}
+
+#rodape dl dt {display:inline; width:300px; border:1px solid blue;}
+
+#rodape a, #rodape a:link, #rodape a:visited, #rodape a:hover {text-decoration:none; color:#FFF;}
+
+#login label {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+
+#msgLogin {font-family:Verdana; font-size:12px; color:red;}
+
+#conteudo {font-family:Verdana, Arial; font-size:12px;}
+
+#todos {font-family:Verdana, Arial; font-size:12px;}
+
+.creditos {margin-left:220px;}
+
+.campo {border:1px solid #B38E00; text-align:left;}
+
+.botao {border:1px solid #B38E00; background-color:#FFF4CC;}
+
+.titulo {font-weight:bold; text-align:center; color:#FFF; background-color:#063468; font-family:Verdana, Arial; font-size:12px;}
+
+.mensagens {font-size:10px;}
+
+.texto {text-align:center; font-family:Verdana, arial; font-size:14px;}

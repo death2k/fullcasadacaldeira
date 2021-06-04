@@ -1,0 +1,21 @@
+﻿No,Palavra-chave,Volume de Buscas,CPC,Paid Difficulty,SEO Difficulty
+1,"argamassa refrataria",2400,"R$0,38",100,49
+2,"argamassa refrataria preço",260,"R$0,20",99,43
+3,"argamassa refratária quartzolit",260,"R$0,32",100,44
+4,"argamassa para refratário",210,"R$0,23",100,44
+5,"argamassa refratária 20kg",110,"R$0,46",99,43
+6,"argamassa refratária alta temperatura",90,"R$0,19",80,30
+7,"como fazer argamassa refrataria",70,"R$0,27",87,32
+8,"argamassa refratária para churrasqueira",70,"R$0,33",100,36
+9,"argamassa refrataria rendimento",40,"R$0,03",84,39
+10,"argamassa refrataria portokoll",40,"R$0,14",99,43
+11,"argamassa refrataria composição",40,"R$1,00",51,29
+12,"argamassa refrataria leroy merlin",30,"R$0,08",95,34
+13,"argamassa refrataria para que serve",30,"R$0",7,8
+14,"argamassa refrataria para alta temperatura",30,"R$0,22",96,34
+15,"argamassa refratária para altas temperaturas",30,"R$1,53",100,36
+16,"como preparar argamassa refrataria",20,"R$3,71",4,7
+17,"o que é argamassa refratária",20,"R$0",8,8
+18,"argamassa refratário cinza 5kg quartzolit",20,"R$0,06",100,36
+19,"argamassa refrataria como usar",20,"R$0,14",17,11
+20,"argamassa para refratário quartzolit",20,"R$0,13",100,36
