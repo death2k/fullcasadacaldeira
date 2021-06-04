@@ -8,7 +8,7 @@ $url_pagina = "argamassa-refrataria.php";
 $url = "http://www.casadacaldeira.com.br/";
 $produto = "ARGAMASSA REFRATÁRIA ";
 $url_imagem = "argamassa-refrataria/argamassa-refrataria.jpg";
-$texto1 = "Uma <strong>"  . $h1 . " </strong>  totalmente adequada para os servios de rejunte e assentamento de locais que lidam com altas temperaturas,
+$texto1 = "Uma <strong>"  . $h1 . " </strong>  totalmente adequada para os serviços de rejunte e assentamento de locais que lidam com altas temperaturas,
  atuando como proteção para que os blocos e tijolos não possam ser removidos com facilidade apenas pelo calor. Existem diferentes modelos com modificações
   para churrasqueiras, fornos, lareiras, e as mais importantes: as caldeiras. ";
  
